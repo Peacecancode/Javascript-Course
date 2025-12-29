@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(253, 205, 213);
+}
+
+.greeting {
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+p {
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+input {
+    
+    width: 40%;
+    height: 50px;
+    border-width: 7px;
+    border-radius: 5px;
+    border-style: dashed;
+    border-color: rgb(185, 37, 185);
+}
+
+#nameInput {
+    margin-left: 350px;
+    margin-top: 50px;
+}
+ #btnn {
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: plum;
+    width: 100px;
+    height: 60px;
+ }
+
+ #btnn :hover {
+    cursor: pointer;
+    color: rgb(161, 91, 161);
+ }
+
+ #output{
+    font-size: 30px;
+    padding-top: 50px;
+ }
