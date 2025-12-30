@@ -36,9 +36,9 @@ input {
     height: 60px;
  }
 
- #btnn :hover {
+ #btnn:hover {
     cursor: pointer;
-    color: rgb(161, 91, 161);
+    background-color: rgb(203, 142, 203);
  }
 
  #output{
