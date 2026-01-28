@@ -53,3 +53,53 @@ numButton.onclick = function () {
     }
 };
 
+// Multiple conditions //
+
+
+let scoreButton = document.getElementById("scoreBtn");
+scoreButton.onclick = function () {
+    let score = document.getElementById("scoreInput").value;
+    if (score >= 80) {
+        document.getElementById("scoreResult").innerText = "Excellent"
+    }
+    else if (score >= 50 ) {
+        document.getElementById("scoreResult").innerText = "Pass"
+    }
+    else {
+        document.getElementById("scoreResult").innerText = "Fail"
+    }
+};
+
+// return //
+
+// function multiply(4,5) {
+//     return 4 * 5;
+// };
+
+function add() {
+    let a = Number(document.getElementById("a1").value);
+    let b = Number(document.getElementById("a2").value);
+
+    document.getElementById("a-result").innerText = a + b;
+};
+
+function multiply() {
+    let c = Number(document.getElementById("m1").value);
+    let d = Number(document.getElementById("m2").value);
+
+    document.getElementById("m-result").innerText = c * d;
+};
+
+function subtract() {
+    let e = Number(document.getElementById("s1").value);
+    let f = Number(document.getElementById("s2").value);
+
+    document.getElementById("s-result").innerText = e - f;
+};
+
+function divide() {
+    let g = Number(document.getElementById("d1").value);
+    let h = Number(document.getElementById("d2").value);
+
+    document.getElementById("d-result").innerText = g / h;
+};
